@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen(xl) {
+  body {
+    @apply bg-black text-white;
+  }
+}
